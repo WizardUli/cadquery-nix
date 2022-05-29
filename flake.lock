@@ -1,0 +1,150 @@
+{
+  "nodes": {
+    "cadquery-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1653646581,
+        "narHash": "sha256-+8nFAw35A1lrjtbhqrFX76GX0Abs9G9GTg0VywqY2Dc=",
+        "owner": "WizardUli",
+        "repo": "cadquery",
+        "rev": "3032e0f8fe4856b037313def4b0bf431cae87708",
+        "type": "github"
+      },
+      "original": {
+        "owner": "WizardUli",
+        "ref": "dev",
+        "repo": "cadquery",
+        "type": "github"
+      }
+    },
+    "cq-editor-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1645031287,
+        "narHash": "sha256-/LoZN/ysTRWnK9eoehtnkyXDH1k6AoT0q4ul/ynspHM=",
+        "owner": "WizardUli",
+        "repo": "CQ-editor",
+        "rev": "4b461fe195d0a4e99b9a6c43b7e1fe0cb4c5e77d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "WizardUli",
+        "ref": "dev",
+        "repo": "CQ-editor",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1653893745,
+        "narHash": "sha256-0jntwV3Z8//YwuOjzhV2sgJJPt+HY6KhU7VZUL0fKZQ=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "1ed9fb1935d260de5fe1c2f7ee0ebaae17ed2fa1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "flake-utils_2": {
+      "locked": {
+        "lastModified": 1653893745,
+        "narHash": "sha256-0jntwV3Z8//YwuOjzhV2sgJJPt+HY6KhU7VZUL0fKZQ=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "1ed9fb1935d260de5fe1c2f7ee0ebaae17ed2fa1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nix-things": {
+      "inputs": {
+        "flake-utils": "flake-utils_2",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1653826497,
+        "narHash": "sha256-ma+4xNkukAg9Mh7RPl+jwSiu1/FZx9m3zO7/aWiGeVk=",
+        "ref": "main",
+        "rev": "bb8b59060195028ea4e3c3a8bcb0646da6437484",
+        "revCount": 29,
+        "type": "git",
+        "url": "https://codeberg.org/Uli/nix-things.git"
+      },
+      "original": {
+        "ref": "main",
+        "type": "git",
+        "url": "https://codeberg.org/Uli/nix-things.git"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1653407748,
+        "narHash": "sha256-g9puJaILRTb9ttlLQ7IehpV7Wcy0n+vs8LOFu6ylQcM=",
+        "path": "/nix/store/x3h9qfy21ql0bf64y0bsfjqwgj7baa1q-source",
+        "rev": "5ce6597eca7d7b518c03ecda57d45f9404b5e060",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs-unstable",
+        "type": "indirect"
+      }
+    },
+    "ocp-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1653676152,
+        "narHash": "sha256-exPTobNq+4ufLCz6C3s5HvNKdq6cJ1TwOnPnVSqNiIA=",
+        "owner": "WizardUli",
+        "repo": "OCP",
+        "rev": "c744085416c5fa80a3a5ea6f4b2f165f7ba0a164",
+        "type": "github"
+      },
+      "original": {
+        "owner": "WizardUli",
+        "ref": "dev",
+        "repo": "OCP",
+        "type": "github"
+      }
+    },
+    "pywrap-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1653669963,
+        "narHash": "sha256-9nNjo6B1H2uVcgyEToAlm5v6J0EIaowMs3s66GvpxHU=",
+        "owner": "WizardUli",
+        "repo": "pywrap",
+        "rev": "6f8fa442522cfa621962dcf29145282eeb05e16d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "WizardUli",
+        "ref": "dev",
+        "repo": "pywrap",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "cadquery-src": "cadquery-src",
+        "cq-editor-src": "cq-editor-src",
+        "flake-utils": "flake-utils",
+        "nix-things": "nix-things",
+        "nixpkgs": "nixpkgs",
+        "ocp-src": "ocp-src",
+        "pywrap-src": "pywrap-src"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
