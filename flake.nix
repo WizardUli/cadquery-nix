@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs = {
       type = "indirect";
-      id = "nixpkgs-unstable";
+      id = "nixpkgs";
     };
     flake-utils.url = "github:numtide/flake-utils";
     nix-things = {

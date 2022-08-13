@@ -37,7 +37,7 @@ python.pkgs.buildPythonPackage rec {
 
   checkInputs = with python.pkgs; [
     docutils
-    jupyter
+    ipython
     pathpy
     pytest
   ];

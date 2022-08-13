@@ -23,6 +23,8 @@ python.pkgs.buildPythonApplication {
 
   preFixup = ''
     wrapQtApp "$out/bin/cq-editor"
+    # https://github.com/CadQuery/CQ-editor/issues/266
+    wrapProgram "$out/bin/cq-editor" --set QT_QPA_PLATFORM xcb
   '';
 
   doCheck = false;
