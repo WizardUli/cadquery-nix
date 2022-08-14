@@ -67,7 +67,15 @@
       });
 
       devShells.default = pkgs.mkShell {
-        packages = with pkgs; [ ];
+        packages = with pkgs; [
+          (python.withPackages (p: with p; [
+            self.packages.${system}.cadquery
+            black
+            mypy
+            pylint
+          ]))
+          self.packages.${system}.cq-editor
+        ];
       };
     }
     );
