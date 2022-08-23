@@ -76,6 +76,9 @@
           ]))
           self.packages.${system}.cq-editor
         ];
+        shellHook = with pkgs; ''
+          unset PYTHONPATH
+        '';
       };
     }
     );
