@@ -3,11 +3,11 @@
     "cadquery-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1661952677,
-        "narHash": "sha256-rfa1cthXMjJMxaLDN4cgLkpbpb9Xy2rKC+m0U5d7A/I=",
+        "lastModified": 1662803122,
+        "narHash": "sha256-TKPMxptOxbR0cknhbOhXlL1kXIY8fIyhU0ENGhkxm+c=",
         "owner": "WizardUli",
         "repo": "cadquery",
-        "rev": "8f52c33e1ceb08e90fb76526431771585581d768",
+        "rev": "36d61926cedcdd81349b92deecee416f1b000934",
         "type": "github"
       },
       "original": {
@@ -89,8 +89,8 @@
     "nixpkgs": {
       "locked": {
         "lastModified": 0,
-        "narHash": "sha256-ZJlBQ7jXynq4+Jg9+DgOe8FJG8sDIeFFYP3V3K98KUs=",
-        "path": "/nix/store/yx6vh96vsaf73124nkvxdzfbj42b2k77-source",
+        "narHash": "sha256-MdZLCTJPeHi/9fg6R9fiunyDwP3XHJqDd51zWWz9px0=",
+        "path": "/nix/store/hgi7cx0a326zll31n503a4mbc3bscm28-source",
         "type": "path"
       },
       "original": {
